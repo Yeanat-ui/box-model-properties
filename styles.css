@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.box {
+    width: 200px; /* Width of the content box */
+    height: 100px; /* Height of the content box */
+    background-color: #4CAF50; /* Background color for the box */
+    color: white;
+    line-height: 100px; /* Center text vertically */
+    margin: 20px auto; /* Margin outside the box */
+    padding: 10px; /* Padding inside the box */
+    border: 5px solid #333; /* Border surrounding the box */
+    box-sizing: border-box; /* Ensure width/height include padding and border */
+}
+
+/* Specific styles for different boxes */
+#box1 {
+    background-color: #f44336; /* Red */
+}
+
+#box2 {
+    background-color: #2196F3; /* Blue */
+}
+
+#box3 {
+    background-color: #FFEB3B; /* Yellow */
+}
